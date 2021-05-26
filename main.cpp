@@ -135,7 +135,6 @@ int main() {
 
     fillArrays(first, second, third);
     
-    int i, k;
     clock_t Start = clock();
     Quicksort_midpoint(first, 0, NUMBERS_SIZE - 1);
     clock_t End = clock();
